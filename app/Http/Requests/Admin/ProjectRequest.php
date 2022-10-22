@@ -13,6 +13,7 @@ class ProjectRequest extends Request
 
     public function rulesForUpdate()
     {
+        //laravel validation
         return [
             'url' => 'url'
         ];

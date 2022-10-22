@@ -8,6 +8,5 @@ class ProjectController extends BaseModuleController
 {
     protected $moduleName = 'projects';
 
-    protected $indexOptions = [
-    ];
+
 }

@@ -27,29 +27,15 @@ class Project extends Model
             'default' => [
                 [
                     'name' => 'default',
-                    'ratio' => 16 / 9,
-                ],
-            ],
-            'mobile' => [
-                [
-                    'name' => 'mobile',
-                    'ratio' => 1,
-                ],
-            ],
-            'flexible' => [
-                [
-                    'name' => 'free',
-                    'ratio' => 0,
-                ],
-                [
-                    'name' => 'landscape',
-                    'ratio' => 16 / 9,
-                ],
-                [
-                    'name' => 'portrait',
-                    'ratio' => 3 / 5,
+                    'ratio' => 12 / 9,
                 ],
             ],
         ],
     ];
+
+    // Mutators & Accessors
+    public function getDomainAttribute($value)
+    {
+        return parse_url($this->url)['host'];
+    }
 }
