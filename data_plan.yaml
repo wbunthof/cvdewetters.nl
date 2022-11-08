@@ -1,0 +1,33 @@
+EVENTS:
+  - title:
+      - migration: string,
+      - formField: input,
+      - notes:
+
+  - headline:
+      - migration: string,
+      - formField: input,
+      - notes: max 200 chars
+
+  - description:
+      - migration: text,
+      - formField: wysiwig,
+      - notes: epxlain what the event is about
+
+  - start_date:
+      - migration: dateTime,
+      - formField: input,
+      - notes:
+
+  - end_date:
+      - migration: dateTime,
+      - formField: input,
+      - notes:
+
+ARTICLES:
+
+
+VIPS:
+
+MEMBERS:
+
