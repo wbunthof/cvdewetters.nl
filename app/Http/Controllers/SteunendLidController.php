@@ -38,7 +38,6 @@ class SteunendLidController extends Controller
         $request->validate([
             'firstname' => 'required',
             'lastname' => 'required',
-            'emailadres' => 'email'
         ]);
 
         try {
