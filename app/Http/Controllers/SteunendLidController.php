@@ -46,9 +46,7 @@ class SteunendLidController extends Controller
             return back()->with(['error' => $exception]);
         }
 
-        return redirect('https://tikkie.me');
-
-
+        return redirect('https://betaalverzoek.rabobank.nl/betaalverzoek/?id=GrwXgMY7S4musZu2g9xnTw');
     }
 
     /**

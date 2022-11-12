@@ -5,8 +5,13 @@
         <div class="container">
 
             <div class="section-title">
-                <h2>Nieuw steunend lid</h2>
-                <p>Mooie bedank zin.</p>
+                <h2>Steun C.V. de Wetters!</h2>
+                <h3>
+                    Bedankt dat u de vereniging vrijblijvend voor €11,11 wilt steunen. <br>
+                    Hierdoor blijft carnaval in "Wetterland" voor u en uw kinderen bestaan.
+                </h3>
+
+                <br>
 
                 <form method="post" action="/steunend-lid">
                     @if ($errors->any())
@@ -42,7 +47,7 @@
                     <input name="phonenumber" id="phonenumber" type="text" value="{{ old('phonenumber') }}" class="form-control @error('phonenumber') is-invalid @enderror">
                     </div>
 
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Volgende</button>
 
                 </form>
 
