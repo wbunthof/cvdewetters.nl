@@ -94,10 +94,10 @@
 
             <div class="row">
                 <div class="col-xl-6" >
-                    <h3 class="resume-title">Vrijdag 17 januari 2023</h3>
+                    <h3 class="resume-title">Vrijdag 13 januari 2023</h3>
                     <div class="resume-item pb-0">
                         <h4>Bonte avond</h4>
-                        <h5>19.11 - 00.11</h5>
+                        <h5>19.11 - 01.11</h5>
                         <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
                         <ul>
                             <li>€15,-</li>
@@ -107,10 +107,10 @@
                 </div>
                 <div class="col-xl-6" >
 
-                    <h3 class="resume-title">Zaterdag 18 januari 2023</h3>
+                    <h3 class="resume-title">Zaterdag 14 januari 2023</h3>
                     <div class="resume-item">
                         <h4>Sleuteluitreiking in Nederwetten!</h4>
-                        <h5>10.11 - 13.11</h5>
+                        <h5>19.11 - 01.11</h5>
                     </div>
                     <div class="resume-item">
                         <h4>Avondprogramma</h4>
