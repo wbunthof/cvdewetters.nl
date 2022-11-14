@@ -2,7 +2,7 @@
     <div class="d-flex flex-column">
 
         <div class="profile">
-            <img src="{{asset('img/trio.jpg')}}" alt="" class="img-fluid rounded-circle">
+            <img src="{{asset('img/Trio.jpg')}}" alt="" class="img-fluid rounded-circle">
             <h1 class="text-light"><a href="{{route('home')}}">Carnavalsvereniging de Wetters</a></h1>
             <div class="social-links mt-3 text-center">
                 <!--          <a href="https://twitter.com/dewetters" class="twitter"><i class="bx bxl-twitter"></i></a>-->
