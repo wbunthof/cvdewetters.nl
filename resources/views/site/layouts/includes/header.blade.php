@@ -18,8 +18,8 @@
                 <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
                 <li><a href="#hoogheden" class="nav-link scrollto"><i class="bx bx-male-female"></i> <span>Hoogheden</span></a></li>
                 <li><a href="#programma" class="nav-link scrollto"><i class="bx bx-list-ul"></i> <span>Programma</span></a></li>
-                <li><a href="#bonteavond" class="nav-link scrollto"><i class="bx bx-music"></i> <span>Bonte avond</span></a></li>
-                <li><a href="#optocht" class="nav-link scrollto"><i class="bx bx-run"></i> <span>Optocht</span></a></li>
+{{--                <li><a href="#bonteavond" class="nav-link scrollto"><i class="bx bx-music"></i> <span>Bonte avond</span></a></li>--}}
+{{--                <li><a href="#optocht" class="nav-link scrollto"><i class="bx bx-run"></i> <span>Optocht</span></a></li>--}}
                 <li><a href="{{ route('index-steunend-lid') }}" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Steunend lid</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
