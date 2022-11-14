@@ -23,7 +23,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Naam:</strong> <span>Dennis Lassou</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Naam:</strong> <span>Dennis Lassouw</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Leeftijd:</strong> <span>?</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Geslacht:</strong> <span>Man</span></li>
                             </ul>
