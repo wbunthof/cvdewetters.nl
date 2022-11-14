@@ -83,43 +83,50 @@
     <section id="programma" class="resume">
         <div class="container">
 
-            <div class="section-title">
-                <h2>Programma</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-            <h2>
-                Receptieweekend
-            </h2>
-            <div class="col-lg-6" data-aos="fade-up">
-                <h3 class="resume-title">Vrijdag 17 januari 2023</h3>
-                <div class="resume-item pb-0">
-                    <h4>Bonte avond</h4>
-                    <h5>19.11 - 00.11</h5>
-                    <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-                    <ul>
-                        <li>€15,-</li>
-                        <li><i>Link naar kopen tickets</i></li>
-                    </ul>
-                </div>
 
-                <h3 class="resume-title">Zaterdag 18 januari 2023</h3>
-                <div class="resume-item">
-                    <h4>Sleuteluitreiking in Nederwetten!</h4>
-                    <h5>10.11 - 13.11</h5>
+                <div class="section-title">
+                    <h2>Programma</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
-                <div class="resume-item">
-                    <h4>Avondprogramma</h4>
-                    <h5>20.11 - ???</h5>
+                <h2>
+                    Receptieweekend
+                </h2>
+
+            <div class="row">
+                <div class="col-xl-6" >
+                    <h3 class="resume-title">Vrijdag 17 januari 2023</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Bonte avond</h4>
+                        <h5>19.11 - 00.11</h5>
+                        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                        <ul>
+                            <li>€15,-</li>
+                            <li><i>Link naar kopen tickets</i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6" >
+
+                    <h3 class="resume-title">Zaterdag 18 januari 2023</h3>
+                    <div class="resume-item">
+                        <h4>Sleuteluitreiking in Nederwetten!</h4>
+                        <h5>10.11 - 13.11</h5>
+                    </div>
+                    <div class="resume-item">
+                        <h4>Avondprogramma</h4>
+                        <h5>20.11 - ???</h5>
+                    </div>
                 </div>
             </div>
+
             <br>
             <br>
             <h2>
                 Carnaval
             </h2>
             <div class="row">
-                <div class="col-lg-6" data-aos="fade-up">
 
+                <div class="col-xxl-2" >
                     {{-- Vrijdag --}}
                     <h3 class="resume-title">Vrijdag 17 januari 2023</h3>
 
@@ -132,20 +139,24 @@
                             <li><i>Link naar kopen tickets</i></li>
                         </ul>
                     </div>
+                </div>
 
+                <div class="col-xxl-2">
                     {{-- Zaterdag --}}
                     <h3 class="resume-title">Zaterdag 18 januari 2023</h3>
 
                     <div class="resume-item">
-                        <h4>Sleuteluitreiking in Nederwetten!</h4>
+                        <h4>Sleutel- uitreiking in Wetterland!</h4>
                         <h5>10.11 - 13.11</h5>
                     </div>
 
                     <div class="resume-item">
-                        <h4>Avondprogramma</h4>
+                        <h4>Avond- programma</h4>
                         <h5>20.11 - ???</h5>
                     </div>
+                </div>
 
+                <div class="col-xxl-2" >
                     {{-- Zondag --}}
                     <h3 class="resume-title">Zondag 19 januari 2023</h3>
 
@@ -160,7 +171,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-xxl-2">
                     {{-- Maandag --}}
                     <h3 class="resume-title">Maandag 20 januari 2023</h3>
 
@@ -168,7 +179,9 @@
                         <h4>Optocht &amp Afterparty</h4>
                         <h5>14.11 - ???</h5>
                     </div>
+                </div>
 
+                <div class="col-xxl-2">
                 {{-- Dinsdag --}}
                     <h3 class="resume-title">Dinsdag 21 januari 2023</h3>
 
@@ -182,7 +195,6 @@
                         <h5>??? - ???</h5>
                     </div>
                 </div>
-            </div>
 
         </div>
     </section><!-- End Programma Section -->
