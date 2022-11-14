@@ -14,7 +14,7 @@ class SteunendLidController extends Controller
      */
     public function index()
     {
-        return view('index-steunend-leden', ['steunendLid' => true]);
+        return view('index-steunend-leden', ['short' => true]);
     }
 
     /**

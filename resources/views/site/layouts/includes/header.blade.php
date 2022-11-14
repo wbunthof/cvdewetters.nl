@@ -2,7 +2,7 @@
     <div class="d-flex flex-column">
 
         <div class="profile">
-            <img src="{{asset('img/profile-img.jpg')}}" alt="" class="img-fluid rounded-circle">
+            <img src="{{asset('img/trio.jpg')}}" alt="" class="img-fluid rounded-circle">
             <h1 class="text-light"><a href="{{route('home')}}">Carnavalsvereniging de Wetters</a></h1>
             <div class="social-links mt-3 text-center">
                 <!--          <a href="https://twitter.com/dewetters" class="twitter"><i class="bx bxl-twitter"></i></a>-->
@@ -20,7 +20,7 @@
                 <li><a href="#programma" class="nav-link scrollto"><i class="bx bx-list-ul"></i> <span>Programma</span></a></li>
                 <li><a href="#bonteavond" class="nav-link scrollto"><i class="bx bx-music"></i> <span>Bonte avond</span></a></li>
                 <li><a href="#optocht" class="nav-link scrollto"><i class="bx bx-run"></i> <span>Optocht</span></a></li>
-                <li><a href="#steunendlid" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Steunend lid</span></a></li>
+                <li><a href="{{ route('index-steunend-lid') }}" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Steunend lid</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
     </div>

@@ -36,7 +36,7 @@
 </head>
 
 <body>
-@if(!isset($steunendLid))
+@if(!isset($short))
 {{--    !isset($steunendLid)--}}
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>

@@ -15,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [\App\Http\Controllers\indexController::class, 'index'])->name('home');
+Route::get('/long', function () {
+    return view('index_long');
+})->name('home');
 Route::get('/steunend-lid', [\App\Http\Controllers\SteunendLidController::class, 'index'])->name('index-steunend-lid');
 Route::put('/steunend-lid', [\App\Http\Controllers\SteunendLidController::class, 'store'])->name('store-steunend-lid');
