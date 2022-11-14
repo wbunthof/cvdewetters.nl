@@ -128,7 +128,7 @@
 
                 <div class="col-xxl-2" >
                     {{-- Vrijdag --}}
-                    <h3 class="resume-title">Vrijdag 17 januari 2023</h3>
+                    <h3 class="resume-title">Vrijdag 17 februari 2023</h3>
 
                     <div class="resume-item pb-0">
                         <h4>Bonte avond</h4>
@@ -143,7 +143,7 @@
 
                 <div class="col-xxl-2">
                     {{-- Zaterdag --}}
-                    <h3 class="resume-title">Zaterdag 18 januari 2023</h3>
+                    <h3 class="resume-title">Zaterdag 18 februari 2023</h3>
 
                     <div class="resume-item">
                         <h4>Sleutel- uitreiking in Wetterland!</h4>
@@ -158,7 +158,7 @@
 
                 <div class="col-xxl-2" >
                     {{-- Zondag --}}
-                    <h3 class="resume-title">Zondag 19 januari 2023</h3>
+                    <h3 class="resume-title">Zondag 19 februari 2023</h3>
 
                     <div class="resume-item">
                         <h4>Kerkdienst &amp ontbijt</h4>
@@ -173,7 +173,7 @@
 
                 <div class="col-xxl-2">
                     {{-- Maandag --}}
-                    <h3 class="resume-title">Maandag 20 januari 2023</h3>
+                    <h3 class="resume-title">Maandag 20 februari 2023</h3>
 
                     <div class="resume-item">
                         <h4>Optocht &amp Afterparty</h4>
@@ -183,7 +183,7 @@
 
                 <div class="col-xxl-2">
                 {{-- Dinsdag --}}
-                    <h3 class="resume-title">Dinsdag 21 januari 2023</h3>
+                    <h3 class="resume-title">Dinsdag 21 februari 2023</h3>
 
                     <div class="resume-item">
                         <h4>Kindermiddag</h4>
@@ -195,7 +195,7 @@
                         <h5>??? - ???</h5>
                     </div>
                 </div>
-
+            </div>
         </div>
     </section><!-- End Programma Section -->
 
