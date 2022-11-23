@@ -144,14 +144,10 @@
 
                     <h3 class="resume-title">Zaterdag 14 januari 2023</h3>
                     <div class="resume-item">
-                        <h4>Sleuteluitreiking in Nederwetten!</h4>
+                        <h4>Receptie!</h4>
                         <h5>19.11 - 01.11</h5>
                     </div>
-                    <div class="resume-item">
-                        <h4>Avondprogramma</h4>
-                        <h5>20.11 - ???</h5>
-                    </div>
-                </div>
+                  </div>
             </div>
 
             <br>
@@ -185,7 +181,12 @@
                     <h3 class="resume-title">Zaterdag 18 februari 2023</h3>
 
                     <div class="resume-item">
-                        <h4>Receptie</h4>
+                        <h4>Sleutel- uitreiking in Wetterland!</h4>
+                        <h5>10.11 - 13.11</h5>
+                    </div>
+
+                    <div class="resume-item">
+                        <h4>Avond- programma</h4>
                         <h5>20.11 - ???</h5>
                     </div>
                 </div>
