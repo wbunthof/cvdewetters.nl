@@ -62,7 +62,7 @@
                         <div class="col-lg-6">
                             <ul>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Woonplaats:</strong> <span>Nederwetten</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Gezin:</strong> <span>Janneke - Staf en Vos</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Gezin:</strong> <span>Myke - Rosa en Suze</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Werk:</strong> <span>Operational Manager - Maison van den Boer</span></li>
                             </ul>
                         </div>
@@ -96,7 +96,7 @@
                         <div class="col-lg-6">
                             <ul>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Woonplaats:</strong> <span>Nederwetten</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Gezin:</strong> <span>Myke - Rosa en Suze</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <strong>Gezin:</strong> <span>Janneke - Staf en Vos</span></li>
                                 <li><i class="bi bi-chevron-right"></i> <strong>Werk:</strong> <span>Portfolio Manager - RWE</span></li>
                             </ul>
                         </div>
@@ -185,12 +185,7 @@
                     <h3 class="resume-title">Zaterdag 18 februari 2023</h3>
 
                     <div class="resume-item">
-                        <h4>Sleutel- uitreiking in Wetterland!</h4>
-                        <h5>10.11 - 13.11</h5>
-                    </div>
-
-                    <div class="resume-item">
-                        <h4>Avond- programma</h4>
+                        <h4>Receptie</h4>
                         <h5>20.11 - ???</h5>
                     </div>
                 </div>
