@@ -36,8 +36,6 @@
 </head>
 
 <body>
-@if(!isset($short))
-{{--    !isset($steunendLid)--}}
     <!-- ======= Mobile nav toggle button ======= -->
     <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -45,9 +43,9 @@
     @include('site.layouts.includes.header')
     <!-- End Header -->
 
-    <!-- ======= Home Section ======= -->
-    @include('site.layouts.includes.home')
-    <!-- End Home -->
+
+@if(isset($hoogheden))
+    @include('site.layouts.includes.hoogheden')
 @endif
 
 <main id="main">

@@ -2,7 +2,7 @@
 
 @section('main')
     <!-- ======= Hoogheden Section ======= -->
-    <section id="hoogheden" class="about">
+    <section id="hoogheden-detail" class="about">
         <div class="container">
 
             <div class="section-title">
@@ -186,7 +186,7 @@
                     </div>
 
                     <div class="resume-item">
-                        <h4>Avond- programma</h4>
+                        <h4>Pulle Vulle</h4>
                         <h5>20.11 - ???</h5>
                     </div>
                 </div>

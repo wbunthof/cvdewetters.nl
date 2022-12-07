@@ -32,6 +32,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu{ display: none; }
+    .navbar .nav-item:hover .nav-link{   }
+    .navbar .nav-item:hover .dropdown-menu{ display: block; }
+    .navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -243,7 +250,7 @@ h6 {
   z-index: 1;
 }
 
-#home .home-container {
+#home .home {
   position: relative;
   z-index: 2;
   min-width: 300px;

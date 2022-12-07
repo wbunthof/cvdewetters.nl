@@ -1,7 +1,7 @@
 @extends('site.layouts.main')
 
 @section('main')
-    <section id="hoogheden" class="about">
+    <section id="steunend-lid" class="about">
         <div class="container">
 
             <div class="section-title">

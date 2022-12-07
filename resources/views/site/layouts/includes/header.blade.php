@@ -15,12 +15,30 @@
 
         <nav id="navbar" class="nav-menu navbar">
             <ul>
-                <li><a href="#home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                <li><a href="#hoogheden" class="nav-link scrollto"><i class="bx bx-male-female"></i> <span>Hoogheden</span></a></li>
-                <li><a href="#programma" class="nav-link scrollto"><i class="bx bx-list-ul"></i> <span>Programma</span></a></li>
+                <li><a href="{{route('home')}}#home" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="{{route('home')}}#hoogheden-detail" class="nav-link scrollto"><i class="bx bxs-crown"></i> <span>Royals</span></a></li>
+                <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-calendar"></i> <span>Programma</span></a></li>
 {{--                <li><a href="#bonteavond" class="nav-link scrollto"><i class="bx bx-music"></i> <span>Bonte avond</span></a></li>--}}
 {{--                <li><a href="#optocht" class="nav-link scrollto"><i class="bx bx-run"></i> <span>Optocht</span></a></li>--}}
-                <li><a href="{{ route('index-steunend-lid') }}" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Steunend lid</span></a></li>
+                <div class="row"> {{-- INDENTATION--}}
+                    <div class="col-1"></div>
+                    <div class="col-10">
+                        <li><a href="{{route('bonte-avond')}}#bonte-avond" class="nav-link scrollto"><i class="bx bxs-music"></i>                <span>Bonte avond</span></a></li>
+{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-id-card"></i>              <span>Receptie</span></a></li>--}}
+{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-key"></i>                  <span>Sleuteluitreiking</span></a></li>--}}
+{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-beer"></i>                 <span>Pulle vulle</span></a></li>--}}
+{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-bowl-hot"></i>             <span>Ontbijt</span></a></li>--}}
+                        <li><a href="{{ route('index-optocht') }}#optocht" class="nav-link scrollto"><i class="bx bxs-party"></i>       <span>Optocht</span></a></li>
+{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bx-child"></i>                 <span>Kindermiddag</span></a></li>--}}
+{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-gift"></i>                 <span>Dinsdag Avond</span></a></li>--}}
+                    </div>
+                </div>
+
+{{--                <li><a href="{{ route('index-steunend-lid') }}#steunend-lid" class="nav-link scrollto"><i class="bx bxs-bus-school"></i> <span>Lijn 111</span></a></li>--}}
+{{--                <li><a href="{{ route('index-steunend-lid') }}#steunend-lid" class="nav-link scrollto"><i class="bx bxs-book-open"></i>  <span>Wetterke</span></a></li>--}}
+{{--                <li><a href="{{ route('index-steunend-lid') }}#steunend-lid" class="nav-link scrollto"><i class="bx bxs-book-open"></i>  <span>Contact</span></a></li>--}}
+{{--                <li><a href="{{ route('index-steunend-lid') }}#steunend-lid" class="nav-link scrollto"><i class="bx bxs-book-open"></i>  <span>Agenda</span></a></li>--}}
+                <li><a href="{{ route('index-steunend-lid') }}#steunend-lid" class="nav-link scrollto"><i class="bx bxs-envelope"></i>   <span>Steunend lid</span></a></li>
             </ul>
         </nav><!-- .nav-menu -->
     </div>
