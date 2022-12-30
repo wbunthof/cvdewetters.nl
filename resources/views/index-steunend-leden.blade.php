@@ -6,10 +6,13 @@
 
             <div class="section-title">
                 <h2>Steun C.V. de Wetters!</h2>
-                <h3>
-                    Bedankt dat u de vereniging vrijblijvend voor €11,11 wilt steunen. <br>
-                    Hierdoor blijft carnaval in "Wetterland" voor u en uw kinderen bestaan.
-                </h3>
+                <h3>Vindt u het belangrijk dat we elk jaar met het hele dorp een feestje kunnen bouwen, maar wilt u zelf geen verplichtingen?</h3>
+
+                <p>Wilt u toch graag iets betekenen voor de carnaval in Nederwetten, zonder zelf lid te worden van de vereniging?</p>
+
+                <p>Met een bescheiden bijdrage van &euro; 11,11 per jaar kunt u steunend lid worden.</p>
+
+                <p>Zo ondersteunt u onze carnavalsvereniging met een financi&euml;le bijdrage, zodat wij als vereniging en de carnaval in &ldquo;Wetterland&rdquo; voor u en uw kinderen kan blijven bestaan.</p>
 
                 <br>
 
