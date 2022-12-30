@@ -5,7 +5,7 @@
 @endsection
 
 @section('title')
-    Optocht`Test
+    Optocht
 @endsection
 
 @section('content')
