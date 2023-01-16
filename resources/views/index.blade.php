@@ -134,7 +134,8 @@
                         <h4>Bonte avond</h4>
                         <h5>19.11 - 01.11</h5>
                         <p><em>€15,-</em></p>
-{{--                        <ul>--}}
+                        <p><a href="{{ route('bonte-avond') }}">Klik hier!</a></p>
+                        {{--                        <ul>--}}
 {{--                            <li>€15,-</li>--}}
 {{--                            <li><i>Link naar kopen tickets</i></li>--}}
 {{--                        </ul>--}}
@@ -214,7 +215,7 @@
                     <div class="resume-item">
                         <h4>Optocht &amp Afterparty</h4>
                         <h5>14.11 - ???</h5>
-                        <p><a href="{{ route('bonte-avond') }}">Klik hier!</a></p>
+                        <p><a href="{{ route('index-optocht') }}">Klik hier!</a></p>
 
                     </div>
                 </div>
