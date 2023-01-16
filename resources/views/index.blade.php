@@ -165,7 +165,7 @@
                     {{-- Vrijdag --}}
                     <h3 class="resume-title">Vrijdag 17 februari 2023</h3>
 
-                    <div class="resume-item pb-0">
+                    <a href="{{ route('bonte-avond') }}"><div class="resume-item pb-0">
                         <h4>Bonte avond</h4>
                         <h5>19.11 - 00.11</h5>
                         <p><em>€15,-</em></p>
@@ -173,7 +173,7 @@
 {{--                            <li>€15,-</li>--}}
 {{--                            <li><i>Link naar kopen tickets</i></li>--}}
 {{--                        </ul>--}}
-                    </div>
+                    </div></a>
                 </div>
 
                 <div class="col-xxl-2">
@@ -210,10 +210,10 @@
                     {{-- Maandag --}}
                     <h3 class="resume-title">Maandag 20 februari 2023</h3>
 
-                    <div class="resume-item">
+                    <a href="{{ route('index-optocht') }}"><div class="resume-item">
                         <h4>Optocht &amp Afterparty</h4>
                         <h5>14.11 - ???</h5>
-                    </div>
+                    </div></a>
                 </div>
 
                 <div class="col-xxl-2">
