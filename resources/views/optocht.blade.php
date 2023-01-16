@@ -30,7 +30,7 @@
                 <li>Individueel (1 of 2 personen) - &euro;10,-</li>
                 <li>Loopgroepen klein (3 tot 10 personen) - &euro;25,-</li>
                 <li>Loopgroepen groot (10 of meer personen) - &euro;50,-</li>
-                <li>Wagens (&gt;18 jaar) - &euro;50,-</li>
+                <li>Wagens (&lt;18 jaar) - &euro;50,-</li>
                 <li>Wagens (&gt;18 jaar) - &euro;100,-</li>
             </ul>
             <p style="font-weight: 400;">&nbsp;</p>
