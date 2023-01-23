@@ -4,7 +4,7 @@ namespace App\Http\Requests\Admin;
 
 use A17\Twill\Http\Requests\Admin\Request;
 
-class EventRequest extends Request
+class ProgrammaRequest extends Request
 {
     public function rulesForCreate()
     {

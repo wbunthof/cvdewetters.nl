@@ -33,4 +33,6 @@ Route::get('/bonte-avond', function () {
 Route::get('/optocht', [\App\Http\Controllers\OptochtController::class, 'index'])->name('index-optocht');
 Route::put('/optocht', [\App\Http\Controllers\OptochtController::class, 'store'])->name('store-optocht');
 
+Route::get('/programmas/{slug}', [\App\Http\Controllers\ProgrammaController::class, 'show']);
+
 

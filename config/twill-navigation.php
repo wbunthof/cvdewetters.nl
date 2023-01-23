@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'events' => [
-        'title' => 'Evenementen',
+    'programmas' => [
+        'title' => 'Programma',
         'module' => true
     ]
 ];
