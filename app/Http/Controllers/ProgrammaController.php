@@ -50,10 +50,10 @@ class ProgrammaController extends Controller
         $programma = ProgrammaSlug::where('slug', $slug)->firstOrFail()->Programma;
         $prog = Programma::all()->first();
 
-//        if (!$programma->published)
-//        {
-//            abort(403, 'Nog niet online');
-//        }
+        if (!$programma->published)
+        {
+            abort(403, 'Nog niet online');
+        }
         return view('programma')->with(['programma' => $programma]);
     }
 
