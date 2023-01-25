@@ -27,7 +27,7 @@
 {{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-id-card"></i>              <span>Receptie</span></a></li>--}}
 {{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-key"></i>                  <span>Sleuteluitreiking</span></a></li>--}}
 {{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-beer"></i>                 <span>Pulle vulle</span></a></li>--}}
-{{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-bowl-hot"></i>             <span>Ontbijt</span></a></li>--}}
+                        <li><a href="https://www.cvdewetters.nl/programmas/ontbijt" class="nav-link scrollto"><i class="bx bxs-bowl-hot"></i>             <span>Ontbijt</span></a></li>
                         <li><a href="{{ route('index-optocht') }}#optocht" class="nav-link scrollto"><i class="bx bxs-party"></i>       <span>Optocht</span></a></li>
 {{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bx-child"></i>                 <span>Kindermiddag</span></a></li>--}}
 {{--                        <li><a href="{{route('home')}}#programma" class="nav-link scrollto"><i class="bx bxs-gift"></i>                 <span>Dinsdag Avond</span></a></li>--}}
