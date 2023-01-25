@@ -9,9 +9,9 @@
 @endsection
 
 @section('content')
-    {{ empty($programma->description)}}
-    {{ ($programma->description === "<p><br></p>")}}
-    {{ $programma->hasImage('cover', 'flexible') }}
+{{--    {{ empty($programma->description)}}--}}
+{{--    {{ ($programma->description === "<p><br></p>")}}--}}
+{{--    {{ $programma->hasImage('cover', 'flexible') }}--}}
     @if((($programma->description === "<h1><br></h1>") or empty($programma->description)) and $programma->hasImage('cover', 'flexible'))
     {{--        Only a picture      --}}
     <div class="row">
