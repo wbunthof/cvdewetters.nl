@@ -200,6 +200,7 @@
                     <div class="resume-item">
                         <h4>Kerkdienst &amp ontbijt</h4>
                         <h5>9.30 - 13.11</h5>
+                        <p><a href="https://www.cvdewetters.nl/programmas/ontbijt#ontbijt">Klik hier!</a></p>
                     </div>
 
                     <div class="resume-item">
