@@ -12,11 +12,9 @@
     <div class="container-fluid mb-5">
         {!! $programma->description !!}
     </div>
-    @if($programma->hasImage('cover', 'default'))
+    @if($programma->hasImage('cover', 'flexible'))
         <div class="row">
-            <div class="col-12 col-lg-6">
-                <img src="{{ $programma->image('cover', 'flexible', ['free']) }}">
-            </div>
+            <img src="{{ $programma->image('cover', 'flexible', ['free']) }}">
             <br>
         </div>
     @endif
