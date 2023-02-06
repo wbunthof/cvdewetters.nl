@@ -235,7 +235,7 @@
 
                     <div class="resume-item">
                         <h4>Zotte dinsdagavondshow</h4>
-                        <h5>??? - ???</h5>
+                        <h5>19.11 - ???</h5>
                         <p><a href="https://www.cvdewetters.nl/programmas/zotte-dinsdagavond#programma">Klik hier!</a></p>
                     </div>
                 </div>
