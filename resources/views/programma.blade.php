@@ -9,10 +9,12 @@
 @endsection
 
 @section('content')
-{{--    {{ empty($programma->description)}}--}}
-{{--    {{ ($programma->description === "<p><br></p>")}}--}}
-{{--    {{ $programma->hasImage('cover', 'flexible') }}--}}
-    @if((($programma->description === "<h1><br></h1>") or empty($programma->description)) and $programma->hasImage('cover', 'flexible'))
+{{--    TODO--}}
+    {{ empty($programma->description)}}
+    {{ preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) }}
+    {{ $programma->description}}
+    {{ $programma->hasImage('cover', 'flexible') }}
+    @if(!preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and $programma->hasImage('cover', 'flexible'))
     {{--        Only a picture      --}}
     <div class="row">
         <div class="col-0 col-xxl-3 col-lg-2"></div>
@@ -22,21 +24,21 @@
         <div class="col-0 col-xxl-3 col-lg-2"></div>
     </div>
 
-    @elseif(!$programma->hasImage('cover', 'flexible'))
+    @elseif(preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and !$programma->hasImage('cover', 'flexible'))
 {{--        Only text           --}}
         <div class="">
 
         </div>
-    @else
+    @elseif(!preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and $programma->hasImage('cover', 'flexible'))
 {{--        Text and picture    --}}
         <div class="row">
-{{--            Text--}}
-            <div class="">
-
+{{--        Picture--}}
+            <div class="col-12 col-lg-6 order-lg-1">
+                <img src="{{ $programma->image('cover', 'flexible', ['free']) }}" class="img-fluid mb-5 mb-lg-0">
             </div>
-{{--            Picture--}}
-            <div class="">
-
+{{--        Text--}}
+            <div class="col-12 col-lg-6">
+                {{ $programma->description }}
             </div>
         </div>
     @endif
