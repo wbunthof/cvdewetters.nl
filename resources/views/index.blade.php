@@ -183,13 +183,15 @@
                     <h3 class="resume-title">Zaterdag 18 februari 2023</h3>
 
                     <div class="resume-item">
-                        <h4>Sleutel- uitreiking in Wetterland!</h4>
+                        <h4>D'n Aftrap - in Wetterland!</h4>
                         <h5>10.11 - 13.11</h5>
+                        <p><a href="https://www.cvdewetters.nl/programmas/d-n-aftrap-18-februari-23#programma">Klik hier!</a></p>
                     </div>
 
                     <div class="resume-item">
                         <h4>Pulle Vulle</h4>
                         <h5>20.11 - ???</h5>
+                        <p><a href="https://www.cvdewetters.nl/programmas/pulle-vulle-18-februari-23#programma">Klik hier!</a></p>
                     </div>
                 </div>
 
@@ -216,8 +218,8 @@
                     <div class="resume-item">
                         <h4>Optocht &amp Afterparty</h4>
                         <h5>14.11 - ???</h5>
-                        <p><a href="{{ route('index-optocht') }}">Klik hier!</a></p>
-
+                        <p><a href="{{ route('index-optocht') }}">Klik hier voor optochinformatie!</a></p>
+                        <p><a href="https://www.cvdewetters.nl/programmas/afterparty-20-februari-23#optocht">Klik hier voor afterparty!</a></p>
                     </div>
                 </div>
 
@@ -228,11 +230,13 @@
                     <div class="resume-item">
                         <h4>Kindermiddag</h4>
                         <h5>14.11 - 19.11</h5>
+                        <p><a href="https://www.cvdewetters.nl/programmas/kindermiddag-21-februari-23#programma">Klik hier!</a></p>
                     </div>
 
                     <div class="resume-item">
-                        <h4>Feestelijke afsluiting</h4>
+                        <h4>Zotte dinsdagavondshow</h4>
                         <h5>??? - ???</h5>
+                        <p><a href="https://www.cvdewetters.nl/programmas/zotte-dinsdagavond#programma">Klik hier!</a></p>
                     </div>
                 </div>
             </div>
