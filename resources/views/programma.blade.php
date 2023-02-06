@@ -1,7 +1,7 @@
 @extends('site.layouts.info')
 
 @section('section-title')
-    bonte-avond
+    {{ trim($programma->slug) }}
 @endsection
 
 @section('title')
