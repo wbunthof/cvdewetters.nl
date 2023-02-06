@@ -12,7 +12,7 @@
 {{--    TODO--}}
 {{--    {{ empty($programma->description)}}--}}
 {{--    {{ preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) }}--}}
-    {!! $programma->description !!}}
+    {!! $programma->description !!}
 {{--    {{ $programma->hasImage('cover', 'flexible') }}--}}
     @if(!preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and $programma->hasImage('cover', 'flexible'))
     {{--        Only a picture      --}}
