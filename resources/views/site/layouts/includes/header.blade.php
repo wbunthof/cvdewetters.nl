@@ -25,13 +25,13 @@
                     <div class="col-10">
                         <li><a href="{{route('bonte-avond')}}#bonte-avond" class="nav-link scrollto"><i class="bx bxs-music"></i>                <span>Bonte avond</span></a></li>
 {{--                        <li><a href="https://www.cvdewetters.nl/programmas/receptie#programma" class="nav-link scrollto"><i class="bx bxs-id-card"></i>              <span>Receptie</span></a></li>--}}
-                        <li><a href="https://www.cvdewetters.nl/programmas/d-n-aftrap-18-februari-23#programma" class="nav-link scrollto"><i class="bx bxs-key"></i>                  <span>D'n Aftrap</span></a></li>
-                        <li><a href="https://www.cvdewetters.nl/programmas/pulle-vulle-18-februari-23#programma" class="nav-link scrollto"><i class="bx bxs-beer"></i>                 <span>Pulle vulle</span></a></li>
-                        <li><a href="https://www.cvdewetters.nl/programmas/koninklijk-ontbijt-19-februari-23#ontbijt" class="nav-link scrollto"><i class="bx bxs-bowl-hot"></i>             <span>Ontbijt</span></a></li>
+                        <li><a href="https://www.cvdewetters.nl/programmas/d-n-aftrap-18-februari-23#d-n-aftrap-18-februari-23" class="nav-link scrollto"><i class="bx bxs-key"></i>                  <span>D'n Aftrap</span></a></li>
+                        <li><a href="https://www.cvdewetters.nl/programmas/pulle-vulle-18-februari-23#pulle-vulle-18-februari-23" class="nav-link scrollto"><i class="bx bxs-beer"></i>                 <span>Pulle vulle</span></a></li>
+                        <li><a href="https://www.cvdewetters.nl/programmas/koninklijk-ontbijt-19-februari-23#koninklijk-ontbijt-19-februari-23" class="nav-link scrollto"><i class="bx bxs-bowl-hot"></i>             <span>Ontbijt</span></a></li>
                         <li><a href="{{ route('index-optocht') }}#optocht" class="nav-link scrollto"><i class="bx bxs-party"></i>       <span>Optocht</span></a></li>
-                        <li><a href="https://www.cvdewetters.nl/programmas/afterparty-20-februari-23#optocht" class="nav-link scrollto"><i class="bx bxs-party"></i>       <span>Afterparty</span></a></li>
-                        <li><a href="https://www.cvdewetters.nl/programmas/kindermiddag-21-februari-23#programma" class="nav-link scrollto"><i class="bx bx-child"></i>                 <span>Kindermiddag</span></a></li>
-                        <li><a href="https://www.cvdewetters.nl/programmas/zotte-dinsdagavond#programma" class="nav-link scrollto"><i class="bx bxs-gift"></i>                 <span>Dinsdag Avond</span></a></li>
+                        <li><a href="https://www.cvdewetters.nl/programmas/afterparty-20-februari-23#afterparty-20-februari-23" class="nav-link scrollto"><i class="bx bxs-party"></i>       <span>Afterparty</span></a></li>
+                        <li><a href="https://www.cvdewetters.nl/programmas/kindermiddag-21-februari-23#kindermiddag-21-februari-23" class="nav-link scrollto"><i class="bx bx-child"></i>                 <span>Kindermiddag</span></a></li>
+                        <li><a href="https://www.cvdewetters.nl/programmas/zotte-dinsdagavond#zotte-dinsdagavond" class="nav-link scrollto"><i class="bx bxs-gift"></i>                 <span>Dinsdag Avond</span></a></li>
                     </div>
                 </div>
 

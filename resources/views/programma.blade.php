@@ -5,7 +5,7 @@
 @endsection
 
 @section('title')
-{{ $programma->title }}
+{{ php_strip_whitespace($programma->title) }}
 @endsection
 
 @section('content')
