@@ -10,10 +10,10 @@
 
 @section('content')
 {{--    TODO--}}
-    {{ empty($programma->description)}}
-    {{ preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) }}
-    {{ $programma->description}}
-    {{ $programma->hasImage('cover', 'flexible') }}
+{{--    {{ empty($programma->description)}}--}}
+{{--    {{ preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) }}--}}
+    {!! $programma->description !!}}
+{{--    {{ $programma->hasImage('cover', 'flexible') }}--}}
     @if(!preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and $programma->hasImage('cover', 'flexible'))
     {{--        Only a picture      --}}
     <div class="row">
@@ -27,7 +27,7 @@
     @elseif(preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and !$programma->hasImage('cover', 'flexible'))
 {{--        Only text           --}}
         <div class="">
-
+            {!! $programma->description !!}}
         </div>
     @elseif(!preg_match('/(?<=>)([\w\s]+)(?=<\/)/m', $programma->description) and $programma->hasImage('cover', 'flexible'))
 {{--        Text and picture    --}}
