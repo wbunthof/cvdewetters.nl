@@ -4,9 +4,7 @@
     {{ trim($programma->slug) }}
 @endsection
 
-@section('title')
-{{ trim($programma->title) }}
-@endsection
+@section('title'){{ trim($programma->title) }}@endsection
 
 @section('content')
 {{--    TODO--}}
