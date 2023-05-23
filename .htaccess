@@ -1,0 +1,17 @@
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+
+# Allow Installatron requests
+RewriteCond %{REQUEST_URI} !^/public
+RewriteRule ^(.*)$ /public/$1 [NC,L]
+
+# RewriteRule ^ index.php [L]
+
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "https://www.cvdewetters.nl"
+    Header set Access-Control-Allow-Origin "https://cvdewetters.nl"
+    Header set Access-Control-Allow-Origin "http://www.cvdewetters.nl"
+    Header set Access-Control-Allow-Origin "http://cvdewetters.nl"
+    Header set Access-Control-Allow-Origin "cvdewetters.nl"
+    Header set Access-Control-Allow-Origin "*"
+</IfModule>
